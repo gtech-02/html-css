@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100vw;
+    height: 100vw;
+    font-size: 62.5%;
+    color: black;
+    font-family: "Alfa Slab One", serif;
+}
+
+body {
+    background: linear-gradient(rgb(16, 16, 16, 0.9), rgba(25, 25, 25, 0.8)), url(oficina1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 100%;
+    height: 7vw;
+    background: rgba(22, 22, 22, 0.2);
+}
+
+.menu {
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+
+.logo {
+    font-size:  1.8rem;
+    letter-spacing: 0.4rem;
+    cursor: pointer;
+}
+
+.menu .lista {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.menu .lista a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    transition: 2ms ease-in;
+    position: relative;
+}
+
+.menu .lista a:before{
+    content: ' ';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 2px;
+    background-color: wheat;
+    transition: all 1s ease;
+}
+
+.menu .lista a:hover:before{
+    width: 100%;
+    background-color: yellow;
+}
+
