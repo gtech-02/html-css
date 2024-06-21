@@ -15,19 +15,17 @@ html {
 }
 
 body {
-    background: linear-gradient(rgb(16, 16, 16, 0.9), rgba(25, 25, 25, 0.8)), url(oficina1.jpg);
+    background: linear-gradient(rgb(16, 16, 16, 0.5), rgba(25, 25, 25, 0.5)), url(oficina1.jpg);
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
     background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
 }
 
 header {
     width: 100%;
     height: 7vw;
-    background: rgba(22, 22, 22, 0.2);
+    background: rgba(199, 183, 1, 0.947);
 }
 
 .menu {
@@ -76,7 +74,7 @@ header {
 }
 
 main {
-    height: 93vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
