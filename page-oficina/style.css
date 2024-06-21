@@ -8,7 +8,7 @@
 
 html {
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
     font-size: 62.5%;
     color: black;
     font-family: "Alfa Slab One", serif;
@@ -20,6 +20,8 @@ body {
     background-size: cover;
     background-position-y: 0px;
     background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
 }
 
 header {
@@ -73,3 +75,69 @@ header {
     background-color: yellow;
 }
 
+main {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    font-size: 1.6rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+.footer-form, .footer-contact {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-form h3, .footer-contact h3 {
+    margin-bottom: 10px;
+}
+
+.footer-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-form label {
+    margin-bottom: 5px;
+}
+
+.footer-form input {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 1.4rem;
+}
+
+.footer-form button {
+    padding: 10px;
+    font-size: 1.6rem;
+    background-color: yellow;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-contact p {
+    margin-bottom: 10px;
+}
