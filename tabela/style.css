@@ -1,0 +1,44 @@
+.lista { 
+    font-size: 14pt;
+    text-align: center;
+}
+
+th {
+    padding-inline-end: 10px;
+}
+
+.table {
+    width: 3em;
+}
+
+#titulo {
+    background-color: rgba(5, 104, 5, 0.646);
+}
+
+
+#Tabela{
+    color: rgb(0, 0, 0);
+    background-color: rgba(20, 79, 12, 0.468);
+}
+
+body {
+    background-color: rgba(110, 112, 128, 0.082);
+    margin-top: 1%;
+    margin-left: 35%;
+}
+
+.g6 {
+    background-color: rgba(0, 0, 255, 0.363);
+}
+
+.liberta {
+    background-color: rgba(202, 202, 0, 0.425);
+}
+
+.sul-america {
+    background-color: rgba(153, 205, 50, 0.411);
+}
+
+.rebaixamento {
+    background-color: rgba(197, 6, 6, 0.352);
+}          
